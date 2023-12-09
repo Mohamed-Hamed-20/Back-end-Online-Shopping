@@ -3,7 +3,7 @@ import categoryRoutes from "./routes/categoryRoutes.js";
 import productRoutes from "./routes/productRoutes.js";
 import morgan from "morgan";
 import cors from "cors";
-import connectDB from "../DB/config/db.js";
+import connectDB from "../DB/db.js";
 import { GlobalErrorHandling } from "./utils/errorHandling.js";
 
 const bootstrap = (app, express) => {
